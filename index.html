@@ -1,0 +1,22 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Segundo ejemplo con GIT</title>
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+        <img src="assets/img/logo3.png" alt="Logo de Casa">
+        <h1 id="texto"></h1>
+
+        <script>
+            $(document).ready(function(){
+                $("img").mouseover(function(){
+                    $("#texto").text("Este es un logo de prueba desarrollado con ChatGPT");
+                });
+                $("img").mouseout(function(){
+                    $("#texto").text("");
+                });
+            });
+        </script>
+    </body>
+</html>
