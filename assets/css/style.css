@@ -1,0 +1,40 @@
+/* Ajustes generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Imagen principal (logo) */
+img[alt="Logo de Casa"] {
+    width: 150px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+img[alt="Logo de Casa"]:hover {
+    transform: scale(1.1);
+}
+
+/* Título dinámico del texto */
+#texto {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* Carrusel centrado */
+#miCarrusel {
+    max-width: 450px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Imágenes del carrusel */
+.carousel-item img {
+    height: 300px;
+    object-fit: cover;
+}
